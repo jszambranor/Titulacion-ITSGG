@@ -2,8 +2,8 @@
 class conexion {
     //Atributos
     private $servername = "3.14.82.157";
-	private $username = "jszambranor";
-	private $password = "#passwordJszr2020";
+	private $username = "calderon";
+	private $password = "#passwordCALD593";
 	private $dbname = "titulacion_6to_c";
     private $conn;
 	private $stmt;
@@ -12,8 +12,8 @@ class conexion {
     //Metodos PDO
     public function __construct() {
 		$this->servername = "3.14.82.157";
-		$this->username = "jszambranor";
-		$this->password = "#passwordJszr2020";
+		$this->username = "calderon";
+		$this->password = "#passwordCALD593";
 		$this->dbname = "titulacion_6to_c";
 		$this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
 		$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
